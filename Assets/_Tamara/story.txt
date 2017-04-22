@@ -1,9 +1,11 @@
 CHILD
-I love mommy and daddy.
-Mommy told me to get new friends. / Mommy says, “Go out and play, darling.”
-I met other kids and they told me I play funny.
-Dark: They’re not funny, anyway.
-Light: I like funny. (It’s fun.)
+Dark: Mommy and daddy take care of me.
+Light: I love mommy and daddy.
+Dark: Mommy doesn’t like my playing inside.
+Light: Mommy wants me to go out.
+I met other kids and they say, “You play weird.”
+Dark: They’re not fun, anyway. / They’re the weird ones.
+Light: I like weird. It’s fun.
 I’m home, but where are mommy and daddy?
 The house is empty. 
 Dark: I feel empty, too. / I feel like it, too. / I’m lonely.
