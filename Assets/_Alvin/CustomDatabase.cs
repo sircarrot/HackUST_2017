@@ -78,6 +78,12 @@ public class CustomDatabase : MonoBehaviour {
     public int Choice_5_light;
     public int Choice_5_dark;
 
+    public EndgameBar gameBar1;
+    public EndgameBar gameBar2;
+    public EndgameBar gameBar3;
+    public EndgameBar gameBar4;
+    public EndgameBar gameBar5;
+
     public void Get_data()
     {
         StartCoroutine(GetData());
@@ -107,6 +113,12 @@ public class CustomDatabase : MonoBehaviour {
         Choice_5_light = getArray.Choice_5_light;
         Choice_5_dark = getArray.Choice_5_dark;
 
+        gameBar1.callingFunk();
+        gameBar2.callingFunk();
+        gameBar3.callingFunk();
+        gameBar4.callingFunk();
+        gameBar5.callingFunk();
+
     }
     
     public class getDataClass
@@ -128,10 +140,25 @@ public class CustomDatabase : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start ()
+    void Awake ()
     {
-	    	
-	}
+        choice_1 = PlayerPrefs.GetInt("Choice1");
+        choice_2 = PlayerPrefs.GetInt("Choice2");
+        choice_3 = PlayerPrefs.GetInt("Choice3");
+        choice_4 = PlayerPrefs.GetInt("Choice4");
+        choice_5 = PlayerPrefs.GetInt("Choice5");
+        if(PlayerPrefs.GetInt("gf") == 1)
+        {
+            gf = true;
+        }
+        else
+        {
+            gf = false;
+        }
+        StartCoroutine(GetData());
+        StartCoroutine(InsertData());
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
