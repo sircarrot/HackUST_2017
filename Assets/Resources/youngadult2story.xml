@@ -2,23 +2,23 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>I receive a university offer.</dark>
-      <light>The top university offers me a place.</light>
+      <dark>I receive a\nuniversity offer.</dark>
+      <light>The top university\noffers me a place.</light>
 		  <grey></grey>
     </line>
     <line name="1">
-      <dark>I can make a name for myself.</dark>
-      <light>I can change the world.</light>
+      <dark>I can make a name\nfor myself.</dark>
+      <light>I can change\nthe world.</light>
 		  <grey></grey>
     </line>
     <line name="2">
-      <dark>But the university is in the city.</dark>
-      <light>But I must go away from home.</light>
+      <dark>But the university\nis in the city.</dark>
+      <light>But I must go\naway from home.</light>
 		  <grey></grey>
     </line>
     <line name="3">
-      <dark>I must leave everything behind.</dark>
-      <light>I must leave everything behind.</light>
+      <dark>I must leave\neverything behind.</dark>
+      <light>I must leave\neverything behind.</light>
 		  <grey></grey>
     </line>
     <line name="4">
