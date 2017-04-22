@@ -28,11 +28,11 @@ public class ghostScript : MonoBehaviour {
             gameObject.GetComponent<SpriteRenderer>().sprite = jump;
             if (moveVec.x > 0.01)
             {
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (moveVec.x < -0.01)
             {
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
         else
@@ -40,12 +40,12 @@ public class ghostScript : MonoBehaviour {
             if (moveVec.x > 0.01)
             {
                 gameObject.GetComponent<Animator>().enabled = true;
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (moveVec.x < -0.01)
             {
                 gameObject.GetComponent<Animator>().enabled = true;
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
             }
             else
             {
