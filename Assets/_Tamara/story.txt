@@ -51,14 +51,14 @@ Dark: I graduated with good marks.
 Light: I graduated with satisfying marks.
 Dark: My job is not bad.
 Light: I love my job.
-Dark: I don’t know if I want to settle down. / I should settle down, but I don’t know if I want to.
+Dark: I should settle down, but I don’t know if I want to.
 Light: Getting married sounds like a good idea, but should I?
 A new job offer with a higher pay came in the mail.
 Dark: The company has a good reputation, but this isn’t the job that I want.
 Light: I don’t think I’ll like the job, but it’s from a famous company.
 
-Which do I choose?
-Money often costs too much or passion over pay check?
+What do I pick?
+Money often costs too much or passion over paycheck?
 
 
 FINAL

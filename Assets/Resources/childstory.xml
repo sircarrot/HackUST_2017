@@ -2,48 +2,48 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>Mommy and daddy take care of me.</dark>
-      <light>I love Mommy and Daddy.</light>
+      <dark>Mommy and daddy\ntake care of me.</dark>
+      <light>I love Mommy\nand Daddy.</light>
 		  <grey></grey>
     </line>
     <line name="1">
-      <dark>Mommy doesn't like my playing inside.</dark>
-      <light>Mommy wants me to go out.</light>
+      <dark>Mommy doesn't\nlike my playing\ninside.</dark>
+      <light>Mommy wants me\nto go out.</light>
 		  <grey></grey>
     </line>
     <line name="2">
-      <dark>I met other kids and they say, "You play weird."</dark>
-      <light>I met other kids and they say, "You play weird."</light>
+      <dark>I met other\nkids and they\nsay, "You play\nweird."</dark>
+      <light>I met other\nkids and they\nsay, "You play\nweird."</light>
 		  <grey></grey>
     </line>
     <line name="3">
-      <dark>They're not fun, anyway.</dark>
-      <light>I like weird. It's fun.</light>
+      <dark>They're not\nfun, anyway.</dark>
+      <light>I like weird.\nIt's fun.</light>
 		  <grey></grey>
     </line>
     <line name="4">
-      <dark>I'm home, but where is Mommy and Daddy?</dark>
-      <light>I'm home, but where is Mommy and Daddy?</light>
+      <dark>I'm home, but\nwhere is Mommy\nand Daddy?</dark>
+      <light>I'm home, but\nwhere is Mommy\nand Daddy?</light>
 		  <grey></grey>
     </line>
     <line name="5">
-      <dark>The house is empty.</dark>
-      <light>The house is empty.</light>
+      <dark>The house is\nempty.</dark>
+      <light>The house is\nempty.</light>
 		  <grey></grey>
     </line>
     <line name="6">
       <dark>I feel lonely.</dark>
-      <light>I can play all I want by myself.</light>
+      <light>I can play all I\nwant by myself.</light>
 		  <grey></grey>
     </line>
     <line name="7">
-      <dark>Is this what I call home?</dark>
-      <light>Is this what I call home?</light>
+      <dark>Is this what I\ncall home?</dark>
+      <light>Is this what I\ncall home?</light>
 		  <grey></grey>
     </line>
     <line name="8">
-      <dark>No, this is just a house.</dark>
-      <light>Yes, this is my home.</light>
+      <dark>No, this is\njust a house.</dark>
+      <light>Yes, this is my\nhome.</light>
 		  <grey></grey>
     </line>
   </Story>
