@@ -22,13 +22,8 @@
 		  <grey></grey>
     </line>
     <line name="4">
-      <dark>I'm home, but\nwhere is Mommy\nand Daddy?</dark>
-      <light>I'm home, but\nwhere is Mommy\nand Daddy?</light>
-		  <grey></grey>
-    </line>
-    <line name="5">
-      <dark>The house is\nempty.</dark>
-      <light>The house is\nempty.</light>
+      <dark>I'm home, but\nthe house is empty.</dark>
+      <light>I'm home, but\nthe house is empty.</light>
 		  <grey></grey>
     </line>
     <line name="6">

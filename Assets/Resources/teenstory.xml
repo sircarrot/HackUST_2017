@@ -2,8 +2,8 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>Some notice me. They start pushing me down.</dark>
-      <light>Some take notice of me. They aren't so nice.</light>
+      <dark>Some notice me.\nThey start\npushing me down.</dark>
+      <light>Some take notice\nof me. They\naren't so nice.</light>
 		  <grey></grey>
     </line>
     <line name="1">
@@ -12,17 +12,17 @@
 		  <grey></grey>
     </line>
     <line name="2">
-      <dark>A hand appeared in front of me. Pulling me up, they ask, "Are you okay?"</dark>
-      <light>A hand appeared in front of me. Pulling me up, they ask, "Are you okay?"</light>
+      <dark>A hand appeared\nin front of me.\nPulling me up,\nthey ask, "Are you okay?"</dark>
+      <light>A hand appeared\nin front of me.\nPulling me up,\nthey ask, "Are you okay?"</light>
 		  <grey></grey>
     </line>
     <line name="3">
-      <dark>Someone listens to me. Someone talks to me.</dark>
-      <light>Someone cares about me.</light>
+      <dark>Someone listens\nto me. Someone\ntalks to me.</dark>
+      <light>Someone cares\nabout me.</light>
 		  <grey></grey>
     </line>
     <line name="4">
-      <dark>I hope this isn't a dream.</dark>
+      <dark>I hope this\nisn't a dream.</dark>
       <light>I'm not alone now.</light>
 		  <grey></grey>
     </line>
@@ -33,7 +33,7 @@
     </line>
     <line name="6">
       <dark>Yes, it is.</dark>
-      <light>No, of course, it's not.</light>
+      <light>No, of course,\nit's not.</light>
 		  <grey></grey>
     </line>
   </Story>
