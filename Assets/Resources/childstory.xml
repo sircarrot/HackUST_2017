@@ -36,5 +36,15 @@
       <light>I can play all I want by myself.</light>
 		  <grey></grey>
     </line>
+    <line name="7">
+      <dark>Is this what I call home?</dark>
+      <light>Is this what I call home?</light>
+		  <grey></grey>
+    </line>
+    <line name="8">
+      <dark>No, this is just a house.</dark>
+      <light>Yes, this is my home.</light>
+		  <grey></grey>
+    </line>
   </Story>
 </StoryCollection>
