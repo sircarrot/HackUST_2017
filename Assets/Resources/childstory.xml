@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Story>
+    <line name="0">
+      <dark>Mommy and daddy take care of me.</dark>
+      <light>I love mommy and daddy.</light>
+		  <grey></grey>
+    </line>
+    
+  </Story>
+</StoryCollection>
