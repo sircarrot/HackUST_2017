@@ -14,15 +14,15 @@ public class StoryCaller : MonoBehaviour {
 	
     if(linetype == 1)
         {
-            Debug.Log(storyclass.GetComponent<StoryScript>().DarkLine(linenumber));
+           gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().DarkLine(linenumber);
         }
     else if(linetype == 2)
         {
-            Debug.Log(storyclass.GetComponent<StoryScript>().LightLine(linenumber));
+            gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().LightLine(linenumber);
         }
     else
         {
-            Debug.Log(storyclass.GetComponent<StoryScript>().GreyLine(linenumber));
+            gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().GreyLine(linenumber);
         }
 
 	}

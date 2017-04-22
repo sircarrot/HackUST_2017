@@ -8,7 +8,7 @@ public class StoryScript : MonoBehaviour {
 
     private static StoryLoader myTarget = new StoryLoader();
 
-    void Start()
+    void Awake()
     {
         StoryLoader.path = FileName;
         myTarget.Load();
