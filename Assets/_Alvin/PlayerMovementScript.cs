@@ -45,13 +45,6 @@ public class PlayerMovementScript : MonoBehaviour {
             gameObject.GetComponent<Animator>().enabled = false;
             gameObject.GetComponent<SpriteRenderer>().sprite = idle;
         }
-
-
-        //     public Animator animator;
-        //public float desiredSpeed;
-
-        //animator.speed = desiredSpeed;
-
     }
 
     public void JumpCommand()

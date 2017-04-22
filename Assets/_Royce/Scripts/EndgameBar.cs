@@ -31,7 +31,6 @@ public class EndgameBar : MonoBehaviour {
         for (int i = 0; i < frames; i++)
         {
             // Move panels according to direction
-            //Content.transform.localPosition += new Vector3(dir * 700 / frames, 0, 0);
             updatewidth += width * prct / frames;
             rect.sizeDelta = new Vector2 (updatewidth, rect.sizeDelta.y);
             //Debug.Log(width);
