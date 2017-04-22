@@ -4,25 +4,25 @@ Light: I love mommy and daddy.
 Dark: Mommy doesn’t like my playing inside.
 Light: Mommy wants me to go out.
 I met other kids and they say, “You play weird.”
-Dark: They’re not fun, anyway. / They’re the weird ones.
+Dark: They’re not fun, anyway.
 Light: I like weird. It’s fun.
 I’m home, but where are mommy and daddy?
 The house is empty. 
-Dark: I feel like it, too. / I’m lonely. / I feel lonely.
+Dark: I feel lonely.
 Light: I can play all I want (by myself).
 
-Do I call this home? / Is this what I call home? / Is this my home?
+Is this what I call home?
 I do or I don’t / No, this is just a house or yes, this is my home.
 
 TEEN (5)
 Dark: Some notice me. They start pushing me down.
-Light: Some take notice of me. They push me around. / They aren't so nice.
-Dark: Others don’t spare a glance. / Others ignore me.
-Light: Others just watch. / Others walk away. / Others go on their own business. / Others do nothing.
+Light: Some take notice of me. They aren't so nice.
+Dark: Others ignore me.
+Light: Others do nothing.
 A hand appeared in front of me. Pulling me up, they ask, “Are you okay?”
 Dark: Someone listens to me. Someone talks to me.
 Light: Someone cares about me. 
-Dark: I hope this isn’t a dream. / I hope I’m not dreaming.
+Dark: I hope this isn’t a dream.
 Light: I’m not alone now.
 
 Is this love?
@@ -35,17 +35,16 @@ Dark: I can make a name for myself.
 Light: I can change the world.
 Dark: But the university is in the city.
 Light: But I must go away from home.
-I must leave friends/family behind. [Choice in CHILD]
-I must leave everything behind.
 
 If Yes in TEEN:
 I must leave them behind.
-What do I do? / Should we keep going?
-Go the distance or let it go? / Distance doesn’t matter or distance matters?
+What do I do?
+Distance does matter or distance doesn't matter?
 
 If No in TEEN:
+I must leave everything behind.
 What do I do?
-Start anew/fresh or hold on?
+Start anew or hold on?
 
 ADULT (5)
 Dark: I graduated with good marks.
