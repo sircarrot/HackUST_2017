@@ -23,6 +23,8 @@ namespace UnityStandardAssets.Cameras
         private float m_TurnSpeedVelocityChange; // The change in the turn speed velocity
         private Vector3 m_RollUp = Vector3.up;// The roll of the camera around the z axis ( generally this will always just be up )
 
+        public bool flipped = false;
+
 
         protected override void FollowTarget(float deltaTime)
         {
@@ -85,7 +87,14 @@ namespace UnityStandardAssets.Cameras
             }
 
             // camera position moves towards target position:
-            transform.position = Vector3.Lerp(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(m_Target.position.x+10, m_Target.position.y+30, transform.position.z), deltaTime*m_MoveSpeed);
+            if(flipped == true)
+            {
+                transform.position = Vector3.Lerp(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(m_Target.position.x - 10, m_Target.position.y + 30, transform.position.z), deltaTime * m_MoveSpeed);
+            }
+            else
+            {
+                transform.position = Vector3.Lerp(new Vector3(transform.position.x, transform.position.y, transform.position.z), new Vector3(m_Target.position.x + 10, m_Target.position.y + 30, transform.position.z), deltaTime * m_MoveSpeed);
+            }
         }
     }
 }
