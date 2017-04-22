@@ -12,6 +12,9 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public bool IsJumping = false;
 
+    public Vector3 moveVec;
+    public Sprite idle;
+
     Rigidbody2D myBody;
 	// Use this for initialization
 	void Start ()
@@ -22,8 +25,33 @@ public class PlayerMovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        Vector3 moveVec = new Vector3(CrossPlatformInputManager.GetAxis("Horizontal_" + Player), 0, 0) * moveSpeed;
+        moveVec = new Vector3(CrossPlatformInputManager.GetAxis("Horizontal_" + Player), 0, 0) * moveSpeed;
         this.transform.Translate(moveVec);
+        //Debug.Log(myBody.velocity);
+
+        //Debug.Log(moveVec);
+        if (moveVec.x > 0.01)
+        {
+            gameObject.GetComponent<Animator>().enabled = true;
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else if(moveVec.x < -0.01)
+        {
+            gameObject.GetComponent<Animator>().enabled = true;
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            gameObject.GetComponent<Animator>().enabled = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = idle;
+        }
+
+
+        //     public Animator animator;
+        //public float desiredSpeed;
+
+        //animator.speed = desiredSpeed;
+
     }
 
     public void JumpCommand()
