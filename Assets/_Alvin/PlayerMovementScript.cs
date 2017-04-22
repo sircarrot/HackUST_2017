@@ -14,6 +14,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public Vector3 moveVec;
     public Sprite idle;
+    public Sprite jump;
 
     Rigidbody2D myBody;
 	// Use this for initialization
@@ -30,20 +31,36 @@ public class PlayerMovementScript : MonoBehaviour {
         //Debug.Log(myBody.velocity);
 
         //Debug.Log(moveVec);
-        if (moveVec.x > 0.01)
+        if (IsJumping)
         {
-            gameObject.GetComponent<Animator>().enabled = true;
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
-        }
-        else if(moveVec.x < -0.01)
-        {
-            gameObject.GetComponent<Animator>().enabled = true;
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            gameObject.GetComponent<Animator>().enabled = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = jump;
+            if (moveVec.x > 0.01)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (moveVec.x < -0.01)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
         }
         else
         {
-            gameObject.GetComponent<Animator>().enabled = false;
-            gameObject.GetComponent<SpriteRenderer>().sprite = idle;
+            if (moveVec.x > 0.01)
+            {
+                gameObject.GetComponent<Animator>().enabled = true;
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (moveVec.x < -0.01)
+            {
+                gameObject.GetComponent<Animator>().enabled = true;
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                gameObject.GetComponent<Animator>().enabled = false;
+                gameObject.GetComponent<SpriteRenderer>().sprite = idle;
+            }
         }
     }
 
