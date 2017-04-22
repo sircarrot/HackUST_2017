@@ -2,8 +2,8 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>I graduated with good marks.</dark>
-      <light>I graduated with satisfying marks.</light>
+      <dark>I graduated with\ngood marks.</dark>
+      <light>I graduated with\nsatisfying marks.</light>
 		  <grey></grey>
     </line>
     <line name="1">
@@ -12,18 +12,18 @@
 		  <grey></grey>
     </line>
     <line name="2">
-      <dark>I should settle down, but I don't know if I want to.</dark>
-      <light>Getting married sounds like a good idea, but should I?</light>
+      <dark>I should settle\ndown, but I don't\nknow if I want to.</dark>
+      <light>Getting married\nsounds like a\ngood idea, but\nshould I?</light>
 		  <grey></grey>
     </line>
     <line name="3">
-      <dark>A new job offer with a higher pay came in the mail.</dark>
-      <light>A new job offer with a higher pay came in the mail.</light>
+      <dark>A new job offer\nwith a higher pay\ncame in the mail.</dark>
+      <light>A new job offer\nwith a higher pay\ncame in the mail.</light>
 		  <grey></grey>
     </line>
     <line name="4">
-      <dark>The company has a good reputation, but this isn't the job that I want.</dark>
-      <light>I don't think I'll like the job, but it's from a good company.</light>
+      <dark>The company has a\ngood reputation,\nbut this isn't\nthe job that I want.</dark>
+      <light>I don't think I'll\nlike the job, but\nit's from a good company.</light>
 		  <grey></grey>
     </line>
     <line name="5">
@@ -32,8 +32,8 @@
 		  <grey></grey>
     </line>
     <line name="6">
-      <dark>Money often costs too much.</dark>
-      <light>Passion over paycheck.</light>
+      <dark>Money often costs\ntoo much.</dark>
+      <light>Passion over\npaycheck.</light>
 		  <grey></grey>
     </line>
   </Story>
