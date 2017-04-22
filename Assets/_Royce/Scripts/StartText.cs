@@ -6,6 +6,7 @@ using UnityEngine;
 public class StartText : MonoBehaviour {
 
     public Text StartTxt;
+    public float waitTitleTime;
     public float fadeInTime;
     public float stayTime;
     public float fadeOutTime;
@@ -14,12 +15,12 @@ public class StartText : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        startblink = true;
+        startblink = false;
+        StartCoroutine(waitTitle());
     }
 
     void Update()
     {
-
         StartCoroutine(Blink());
     }
     IEnumerator Blink()
@@ -38,4 +39,12 @@ public class StartText : MonoBehaviour {
             startblink = true;
         }
     }
+    IEnumerator waitTitle()
+    {
+        startblink = false;
+        StartTxt.canvasRenderer.SetAlpha(0f);
+        yield return new WaitForSeconds(waitTitleTime);
+        startblink = true;
+    }
+
 }
