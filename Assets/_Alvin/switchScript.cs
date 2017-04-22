@@ -5,6 +5,7 @@ using UnityEngine;
 public class switchScript : MonoBehaviour
 {
     public GameObject doorScript_Var;
+    public switchScript Partner;
 	// Use this for initialization
 	void Start ()
     {
@@ -18,7 +19,13 @@ public class switchScript : MonoBehaviour
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        switcher();
+        Partner.switcher();
+    }
+
+    public void switcher ()
+    {
         doorScript_Var.GetComponent<doorScript>().on = false;
-        this.transform.localScale = new Vector3(-1,1,1);
+        this.transform.localScale = new Vector3(-1, 1, 1);
     }
 }
