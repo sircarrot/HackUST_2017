@@ -15,15 +15,18 @@ public class StoryCaller : MonoBehaviour {
     if(linetype == 1)
         {
            gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().DarkLine(linenumber);
+           gameObject.GetComponent<TextMesh>().text = gameObject.GetComponent<TextMesh>().text.Replace("\\n", "\n");
         }
-    else if(linetype == 2)
+        else if(linetype == 2)
         {
             gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().LightLine(linenumber);
+            gameObject.GetComponent<TextMesh>().text = gameObject.GetComponent<TextMesh>().text.Replace("\\n", "\n");
         }
-    else
+        else
         {
             gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().GreyLine(linenumber);
+            gameObject.GetComponent<TextMesh>().text = gameObject.GetComponent<TextMesh>().text.Replace("\\n", "\n");
         }
 
-	}
+    }
 }
