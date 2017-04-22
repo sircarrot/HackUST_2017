@@ -6,7 +6,7 @@ public class StoryCaller : MonoBehaviour {
 
     public GameObject storyclass;
     public int linenumber;
-    public int linetype; // 1 dark, 2 light, o grey
+    public int linetype; // 1 dark, 2 light, other grey
 
 
 	// Use this for initialization
