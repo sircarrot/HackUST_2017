@@ -8,17 +8,17 @@ Dark: They’re not fun, anyway. / They’re the weird ones.
 Light: I like weird. It’s fun.
 I’m home, but where are mommy and daddy?
 The house is empty. 
-Dark: I feel like it, too. / I’m lonely. /
+Dark: I feel like it, too. / I’m lonely. / I feel lonely.
 Light: I can play all I want (by myself).
 
-Who do I choose? / Who is better? / Who do I look for?
-Friends or family? /  
+Do I call this home? / Is this what I call home? / Is this my home?
+I do or I don’t / No, this is just a house or yes, this is my home.
 
 TEEN (5)
 Dark: Some notice me. They start pushing me down.
 Light: Some take notice of me. They push me around. / They aren't so nice.
 Dark: Others don’t spare a glance. / Others ignore me.
-Light: Others just watch. /
+Light: Others just watch. / Others walk away. / Others go on their own business. / Others do nothing.
 A hand appeared in front of me. Pulling me up, they ask, “Are you okay?”
 Dark: Someone listens to me. Someone talks to me.
 Light: Someone cares about me. 
@@ -48,7 +48,6 @@ What do I do?
 Start anew/fresh or hold on?
 
 ADULT (5)
-
 Dark: I graduated with good marks.
 Light: I graduated with satisfying marks.
 Dark: My job is not bad.
@@ -60,23 +59,22 @@ Dark: The company has a good reputation, but this isn’t the job that I want.
 Light: I don’t think I’ll like the job, but it’s from a famous company.
 
 Which do I choose?
-The end justifies the means or passion over pay check/profit?
+Money can't buy happiness, but neither can poverty/money buy happiness or passion over pay check?
 
 
 FINAL
 Black
--	Is this enough?
--	Am I happy?
--	Is this home?
--	Is everything worth it? / Am I worth it?
+
+
+Am I happy?
+
 White
--	Is this enough?
--	Am I happy?
--	Am I home?
--	Is everything worth it?
+
+
+Is this enough?
+
 Grey
--	This is enough. / I am enough.
--	I am happy.
--	I found home.
--	I am worthy. / This is worthy.
--	I save the world. I save myself. / I save myself and that's enough/okay.
+
+I am alone, but I'm not lonely.
+I found home, but I didn't change the world.
+And maybe that's enough.
