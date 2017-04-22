@@ -4,17 +4,17 @@
     <line name="0">
       <dark></dark>
       <light></light>
-		  <grey>I am alone, but I'm not lonely.</grey>
+		  <grey>I am alone, but\nI'm not lonely.</grey>
     </line>
     <line name="1">
       <dark></dark>
       <light></light>
-		  <grey>I found home, but I didn't change the world.</grey>
+		  <grey>I found home, but\nI didn't change\nthe world.</grey>
     </line>
     <line name="2">
       <dark></dark>
       <light></light>
-		  <grey>And maybe that's enough.</grey>
+		  <grey>And maybe that's\nenough.</grey>
     </line>
   </Story>
 </StoryCollection>

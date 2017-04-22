@@ -2,13 +2,13 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>I'm not old, but I'm not young, either.</dark>
-      <light>I'm not old, but I'm not young, either.</light>
+      <dark>I'm not old, but\nI'm not young, either.</dark>
+      <light>I'm not old, but\nI'm not young, either.</light>
 		  <grey></grey>
     </line>
     <line name="1">
-      <dark>I did what I did and I have no regrets.</dark>
-      <light>I did what I did and I have no regrets.</light>
+      <dark>I did what I did\nand I have no regrets.</dark>
+      <light>I did what I did\nand I have no regrets.</light>
 		  <grey></grey>
     </line>
     <line name="2">
