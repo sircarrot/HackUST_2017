@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class StartText : MonoBehaviour {
 
+    public GameObject SceneMaster;
     public Image ClickBox;
     public Text StartTxt;
     public float waitTitleTime;
@@ -71,6 +72,7 @@ public class StartText : MonoBehaviour {
         yield return new WaitForSeconds(1);
         ClickBox.CrossFadeAlpha(1f, 3, false);
         yield return new WaitForSeconds(3);
+        SceneMaster.GetComponent<sceneMaster>().selectScene();
     }
 
 }
