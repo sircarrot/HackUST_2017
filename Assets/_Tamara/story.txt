@@ -8,17 +8,17 @@ Dark: They’re not fun, anyway. / They’re the weird ones.
 Light: I like weird. It’s fun.
 I’m home, but where are mommy and daddy?
 The house is empty. 
-Dark: I feel empty, too. / I feel like it, too. / I’m lonely.
+Dark: I feel like it, too. / I’m lonely. /
 Light: I can play all I want (by myself).
 
 Who do I choose? / Who is better? / Who do I look for?
-Friends or family?
+Friends or family? /  
 
 TEEN
 Dark: Some notice me. They start pushing me down.
-Light: Some take notice of me. They push me around.
+Light: Some take notice of me. They push me around. / They aren't so nice.
 Dark: Others don’t spare a glance. / Others ignore me.
-Light: Others just watch.
+Light: Others just watch. /
 A hand appeared in front of me. Pulling me up, they ask, “Are you okay?”
 Dark: Someone listens to me. Someone talks to me.
 Light: Someone cares about me. 
@@ -32,9 +32,9 @@ YOUNG ADULT
 Dark: I receive a university offer.
 Light: The top university offers me a place.
 Dark: I can make a name for myself. 
-Light: I can change the world. / I can save the world.
+Light: I can change the world.
 Dark: But the university is in the city.
-Light: But I must stay/go away from home.
+Light: But I must go away from home.
 I must leave friends/family behind. [Choice in CHILD]
 I must leave everything behind.
 
@@ -56,8 +56,8 @@ Light: I love my job.
 Dark: I don’t know if I want to settle down. / I should settle down, but I don’t know if I want to.
 Light: Getting married sounds like a good idea, but should I?
 A new job offer with a higher pay came in the mail.
-Dark: The company has a bad reputation. / The company is infamous for its questionable methods.
-Light: The company does harm towards society. / The company has unorthodox methods. 
+Dark: The company has a good reputation, but this isn’t the job that I want.
+Light: I don’t think I’ll like the job, but it’s from a famous company.
 
 Which do I choose?
 The end justifies the means or passion over pay check/profit?
