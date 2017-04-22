@@ -15,6 +15,7 @@ public class StartText : MonoBehaviour {
     public bool startblink;
     public bool clickbool = false;
     public AudioClip clickSound;
+    public AudioSource bg;
     // Use this for initialization
     void Start()
     {
@@ -25,6 +26,10 @@ public class StartText : MonoBehaviour {
     void Update()
     {
         StartCoroutine(Blink());
+        if(clickbool)
+        {
+            bg.volume -= 0.1f * Time.deltaTime;
+        }
     }
     IEnumerator Blink()
     {
@@ -45,6 +50,7 @@ public class StartText : MonoBehaviour {
     IEnumerator waitTitle()
     {
         startblink = false;
+        ClickBox.canvasRenderer.SetAlpha(0f);
         StartTxt.canvasRenderer.SetAlpha(0f);
         yield return new WaitForSeconds(waitTitleTime);
         startblink = true;
@@ -58,12 +64,13 @@ public class StartText : MonoBehaviour {
             startblink = false;
             StartCoroutine(Flash());
             gameObject.GetComponent<AudioSource>().PlayOneShot(clickSound);
-
         }
     }
     IEnumerator Flash()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
+        ClickBox.CrossFadeAlpha(1f, 3, false);
+        yield return new WaitForSeconds(3);
     }
 
 }
