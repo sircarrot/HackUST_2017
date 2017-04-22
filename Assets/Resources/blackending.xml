@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Story>
+    <line name="0">
+      <dark>I'm not old, but I'm not young, either.</dark>
+      <light>I'm not old, but I'm not young, either.</light>
+		  <grey></grey>
+    </line>
+    <line name="1">
+      <dark>I did what I did and I have no regrets.</dark>
+      <light>I did what I did and I have no regrets.</light>
+		  <grey></grey>
+    </line>
+    <line name="2">
+      <dark>Am I happy?</dark>
+      <light>Am I happy?</light>
+		  <grey></grey>
+    </line>
+  </Story>
+</StoryCollection>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Story>
+    <line name="0">
+      <dark>I may be old and I may be young.</dark>
+      <light>I may be old and I may be young.</light>
+		  <grey></grey>
+    </line>
+    <line name="1">
+      <dark>I am happy with what I did.</dark>
+      <light>I am happy with what I did.</light>
+		  <grey></grey>
+    </line>
+    <line name="2">
+      <dark>Is this what I want?</dark>
+      <light>Is this what I want?</light>
+		  <grey></grey>
+    </line>
+  </Story>
+</StoryCollection>
