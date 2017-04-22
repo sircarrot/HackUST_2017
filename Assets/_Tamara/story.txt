@@ -29,23 +29,36 @@ Yes, it is or no, of course, it’s not?
 YOUNG ADULT
 Dark: I receive a university offer.
 Light: The top university offers me a place.
-I can get a degree.
-I can make a living for myself. / I can live by myself.
 Dark: I can make a name for myself. 
 Light: I can change the world. / I can save the world.
 Dark: But the university is in the city.
 Light: But I must stay/go away from home.
-I must leave friends/family behind. (Choice in CHILD)
+I must leave friends/family behind. [Choice in CHILD]
 I must leave everything behind.
-If Yes in Teen: I must leave them behind.
 
+If Yes in TEEN:
+I must leave them behind.
 What do I do? / Should we keep going?
 Go the distance or let it go? / Distance doesn’t matter or distance matters?
 
+If No in TEEN:
+What do I do?
+Start anew or hold on?
+
 ADULT
 
+Dark: I graduated with good marks.
+Light: I graduated with satisfying marks.
+Dark: My job is not bad.
+Light: I love my job.
+Dark: I don’t know if I want to settle down. / I should settle down, but I don’t know if I want to.
+Light: Getting married sounds like a good idea, but should I?
+A new job offer with a higher pay came in the mail.
+Dark: The company has a bad reputation. / The company is infamous for its questionable methods.
+Light: The company does harm towards society. / The company has unorthodox methods. 
 
 Which do I choose?
+The end justifies the means or passion over pay check/profit?
 
 
 FINAL
@@ -64,4 +77,4 @@ Grey
 -	I am happy.
 -	I found home.
 -	I am worthy. / This is worthy.
--	I save the world. I save myself.
+-	I save the world. I save myself. / I save myself and that's enough/okay.
