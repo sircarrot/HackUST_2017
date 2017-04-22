@@ -1,4 +1,4 @@
-CHILD
+CHILD (7)
 Dark: Mommy and daddy take care of me.
 Light: I love mommy and daddy.
 Dark: Mommy doesn’t like my playing inside.
@@ -14,7 +14,7 @@ Light: I can play all I want (by myself).
 Who do I choose? / Who is better? / Who do I look for?
 Friends or family? /  
 
-TEEN
+TEEN (5)
 Dark: Some notice me. They start pushing me down.
 Light: Some take notice of me. They push me around. / They aren't so nice.
 Dark: Others don’t spare a glance. / Others ignore me.
@@ -28,7 +28,7 @@ Light: I’m not alone now.
 Is this love?
 Yes, it is or no, of course, it’s not?
 
-YOUNG ADULT
+YOUNG ADULT (6/5)
 Dark: I receive a university offer.
 Light: The top university offers me a place.
 Dark: I can make a name for myself. 
@@ -45,9 +45,9 @@ Go the distance or let it go? / Distance doesn’t matter or distance matters?
 
 If No in TEEN:
 What do I do?
-Start anew or hold on?
+Start anew/fresh or hold on?
 
-ADULT
+ADULT (5)
 
 Dark: I graduated with good marks.
 Light: I graduated with satisfying marks.
