@@ -19,10 +19,10 @@ public class sceneMaster : MonoBehaviour {
             // If first time playing, initialise the following variables
             PlayerPrefs.SetInt("CurScene", 1);
             PlayerPrefs.SetInt("Choice1", 0);
-            PlayerPrefs.SetInt("Choice1", 0);
-            PlayerPrefs.SetInt("Choice1", 0);
-            PlayerPrefs.SetInt("Choice1", 0);
-            PlayerPrefs.SetInt("Choice1", 0);
+            PlayerPrefs.SetInt("Choice2", 0);
+            PlayerPrefs.SetInt("Choice3", 0);
+            PlayerPrefs.SetInt("Choice4", 0);
+            PlayerPrefs.SetInt("Choice5", 0);
         }
         cur_scene = PlayerPrefs.GetInt("CurScene");
         choice_1 = PlayerPrefs.GetInt("Choice1");
