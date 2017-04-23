@@ -36,10 +36,6 @@ public class sceneMaster : MonoBehaviour {
 
      public void selectScene()
     {
-        if(cur_scene == 1)
-        {
-            SceneManager.LoadScene("Stage1");
-        }
-        //Further scenes
+       SceneManager.LoadScene("Stage"+cur_scene);   
     }
 }

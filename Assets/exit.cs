@@ -15,6 +15,7 @@ public class exit : MonoBehaviour
             if(dark_light == 1)
             {
                 PlayerPrefs.SetInt("gf", 1);
+                PlayerPrefs.SetInt("CurScene", scene + 1);
                 PlayerPrefs.Save();
 
                 Application.LoadLevel(scene + 1);
@@ -22,6 +23,7 @@ public class exit : MonoBehaviour
             else
             {
                 PlayerPrefs.SetInt("gf", 0);
+                PlayerPrefs.SetInt("CurScene", scene + 2);
                 PlayerPrefs.Save();
 
                 Application.LoadLevel(scene + 2);
@@ -29,6 +31,7 @@ public class exit : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.SetInt("CurScene", scene + 1);
             PlayerPrefs.Save();
 
             Application.LoadLevel(scene + 1);
