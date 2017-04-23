@@ -25,5 +25,6 @@ public class ScreenFadeout : MonoBehaviour {
             ImgFade.gameObject.SetActive(true);
             ImgFade.CrossFadeAlpha(0f, fadeOutTime, false);
             yield return new WaitForSeconds(fadeOutTime);
+            Destroy(this.gameObject);
     }
 }
