@@ -10,10 +10,22 @@ public class ScreenFadeIn : MonoBehaviour
     public Image ImgFade;
     public float fadeInTime;
 
+    public bool bgbool = false;
+    public AudioSource bg;
+
     void Start()
     {
         ImgFade.canvasRenderer.SetAlpha(0f);
     }
+
+    void Update()
+    {
+        if (bgbool)
+        {
+            bg.volume -= 0.1f * Time.deltaTime;
+        }
+    }
+
 
     // Use this for initialization
     public void CallFadeIn(int loadscene)
@@ -27,7 +39,7 @@ public class ScreenFadeIn : MonoBehaviour
             ImgFade.color = new Color32(255, 255, 255, 255);
         }
 
-
+        bgbool = true;
         StartCoroutine(Fadein(loadscene));
     }
 
