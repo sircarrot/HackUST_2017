@@ -33,6 +33,7 @@ public class PlayerMovementScript : MonoBehaviour {
         //Debug.Log(moveVec);
         if (IsJumping)
         {
+            gameObject.GetComponent<AudioSource>().volume = 0f;
             gameObject.GetComponent<Animator>().enabled = false;
             gameObject.GetComponent<SpriteRenderer>().sprite = jump;
             if (moveVec.x > 0.01)
@@ -48,16 +49,19 @@ public class PlayerMovementScript : MonoBehaviour {
         {
             if (moveVec.x > 0.01)
             {
+                gameObject.GetComponent<AudioSource>().volume = 0.2f;
                 gameObject.GetComponent<Animator>().enabled = true;
                 gameObject.GetComponent<SpriteRenderer>().flipX = false;
             }
             else if (moveVec.x < -0.01)
             {
+                gameObject.GetComponent<AudioSource>().volume = 0.2f;
                 gameObject.GetComponent<Animator>().enabled = true;
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
             else
             {
+                gameObject.GetComponent<AudioSource>().volume = 0f;
                 gameObject.GetComponent<Animator>().enabled = false;
                 gameObject.GetComponent<SpriteRenderer>().sprite = idle;
             }

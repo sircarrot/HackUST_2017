@@ -6,7 +6,12 @@ public class doorScript : MonoBehaviour {
 
     public GameObject Door;
     public bool on = true;
+    public bool music = true;
     public float TimeReal = 1;
+
+    public AudioClip doorsound;
+
+
     Vector3 tmpNow;
     Vector3 tmpTarget;
     // Use this for initialization
@@ -21,7 +26,12 @@ public class doorScript : MonoBehaviour {
     {
 		if(on == false)
         {
-            if(TimeReal>0)
+            if(music)
+            {
+                gameObject.GetComponent<AudioSource>().PlayOneShot(doorsound);
+                music = false;
+            }
+            if (TimeReal>0)
             {
                 TimeReal -= Time.deltaTime * 1;
             }
