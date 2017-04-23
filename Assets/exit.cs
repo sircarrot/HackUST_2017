@@ -10,7 +10,28 @@ public class exit : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         PlayerPrefs.SetInt("Choice"+scene, dark_light);
-        PlayerPrefs.Save();
-        Application.LoadLevel(scene + 1);
+        if(scene == 2)
+        {
+            if(dark_light == 1)
+            {
+                PlayerPrefs.SetInt("gf", 1);
+                PlayerPrefs.Save();
+
+                Application.LoadLevel(scene + 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("gf", 0);
+                PlayerPrefs.Save();
+
+                Application.LoadLevel(scene + 2);
+            }
+        }
+        else
+        {
+            PlayerPrefs.Save();
+
+            Application.LoadLevel(scene + 1);
+        }
     }
 }

@@ -106,8 +106,7 @@ public class EndgameBar : MonoBehaviour {
             total = GameMaster.Choice_5_dark + GameMaster.Choice_5_light;
         }
         prct = same / total;
-
-        PrctText.text = prct.ToString("F0") + placetext;
+        PrctText.text = (prct*100).ToString("F0") + placetext;
 
         width = totalbar.GetComponent<RectTransform>().rect.width;
         StartCoroutine(BarAnimation());
