@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class exit : MonoBehaviour
 {
     public int dark_light; //dark = 0, light = 1
     public int scene;
+
+    public GameObject FadeIn;
+    public int loadscene;
 
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -18,7 +23,7 @@ public class exit : MonoBehaviour
                 PlayerPrefs.SetInt("CurScene", scene + 1);
                 PlayerPrefs.Save();
 
-                Application.LoadLevel(scene + 1);
+                loadscene = scene + 1;
             }
             else
             {
@@ -26,7 +31,7 @@ public class exit : MonoBehaviour
                 PlayerPrefs.SetInt("CurScene", scene + 2);
                 PlayerPrefs.Save();
 
-                Application.LoadLevel(scene + 2);
+                loadscene = scene + 2;
             }
         }
         else
@@ -34,7 +39,10 @@ public class exit : MonoBehaviour
             PlayerPrefs.SetInt("CurScene", scene + 1);
             PlayerPrefs.Save();
 
-            Application.LoadLevel(scene + 1);
+            loadscene = scene + 1;
         }
+
+        FadeIn.GetComponent<Image>().enabled = true;
+        FadeIn.GetComponent<ScreenFadeIn>().CallFadeIn(scene);
     }
 }

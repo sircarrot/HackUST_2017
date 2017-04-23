@@ -5,11 +5,26 @@ using UnityEngine;
 
 public class ScreenFadeout : MonoBehaviour {
 
+    public int prevscene;
     public Image ImgFade;
     public float fadeOutTime;
 
 	// Use this for initialization
 	void Start () {
+        if (prevscene != 0)
+        {
+            if (PlayerPrefs.GetInt("Choice" + prevscene) == 0)
+            {
+                ImgFade.color = new Color32(0, 0, 0, 255);
+            }
+            else
+            {
+                ImgFade.color = new Color32(255, 255, 255, 255);
+            }
+        }
+
+
+
         StartCoroutine(Fadeout());
     }
 
