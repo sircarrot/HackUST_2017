@@ -26,6 +26,7 @@ public class PlayerMovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        
         moveVec = new Vector3(CrossPlatformInputManager.GetAxis("Horizontal_" + Player), 0, 0) * moveSpeed;
         this.transform.Translate(moveVec);
         //Debug.Log(myBody.velocity);
@@ -70,7 +71,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
     public void JumpCommand()
     {
-        if (IsJumping == false)
+        if (IsJumping == false && this.GetComponent<Rigidbody2D>().velocity.y <= 0.1f && this.GetComponent<Rigidbody2D>().velocity.y >= -0.1f)
         {
             myBody.velocity += JumpSpeed * Vector2.up;
             IsJumping = true;
@@ -84,4 +85,5 @@ public class PlayerMovementScript : MonoBehaviour {
             IsJumping = false;
         }
     }
+
 }
