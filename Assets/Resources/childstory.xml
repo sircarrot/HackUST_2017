@@ -2,7 +2,7 @@
 <StoryCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Story>
     <line name="0">
-      <dark>Mommy and daddy\ntake care of me.</dark>
+      <dark>Mommy and daddy\ntakes care of me.</dark>
       <light>I love Mommy\nand Daddy.</light>
 		  <grey></grey>
     </line>

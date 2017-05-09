@@ -10,9 +10,11 @@ public class StoryCaller : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
-	
-    if(linetype == 1)
+	void Start ()
+    {
+        gameObject.GetComponent<MeshRenderer>().sortingLayerName = "Mask";
+        gameObject.GetComponent<MeshRenderer>().sortingOrder = 0;
+        if(linetype == 1)
         {
            gameObject.GetComponent<TextMesh>().text = storyclass.GetComponent<StoryScript>().DarkLine(linenumber);
            gameObject.GetComponent<TextMesh>().text = gameObject.GetComponent<TextMesh>().text.Replace("\\n", "\n");
