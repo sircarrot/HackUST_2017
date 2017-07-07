@@ -26,17 +26,17 @@
       <light>I'm home, but\nthe house is empty.</light>
 		  <grey></grey>
     </line>
-    <line name="6">
+    <line name="5">
       <dark>I feel lonely.</dark>
       <light>I can play all I\nwant by myself.</light>
 		  <grey></grey>
     </line>
-    <line name="7">
+    <line name="6">
       <dark>Is this what I\ncall home?</dark>
       <light>Is this what I\ncall home?</light>
 		  <grey></grey>
     </line>
-    <line name="8">
+    <line name="7">
       <dark>No, this is\njust a house.</dark>
       <light>Yes, this is my\nhome.</light>
 		  <grey></grey>
